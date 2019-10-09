@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = WoodPeckeriOS;
+			productName = WoodPeckeriOS;
 		};
 /* End PBXAggregateTarget section */
 
@@ -53,9 +54,9 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		77D12B72C1C61670141024D22DF2AE47 /* Pods-XHWriterDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHWriterDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		82ED0CECFDD69974E97F8590BBDBBFFC /* Pods-XHWriterDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XHWriterDemo-frameworks.sh"; sourceTree = "<group>"; };
-		8F25979423E60732D238B512D3D4EDBA /* Pods_XHWriterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHWriterDemo.framework; path = "Pods-XHWriterDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F25979423E60732D238B512D3D4EDBA /* Pods_XHWriterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHWriterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7409CC3798D6509114F2B7EC9F2EF7 /* Pods-XHWriterDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHWriterDemoTests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A01D5E733BC9674ED66C5A9465AF89C8 /* Pods-XHWriterDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XHWriterDemo-dummy.m"; sourceTree = "<group>"; };
 		A291079C4A665CC09F2C219EAC742743 /* Pods-XHWriterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHWriterDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AD827816D80C47CD4EFC0019309920FD /* Pods-XHWriterDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHWriterDemo.modulemap"; sourceTree = "<group>"; };
@@ -64,7 +65,7 @@
 		C95BA4A7C5BA4983560CB967D7E737CC /* Pods-XHWriterDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XHWriterDemoTests.modulemap"; sourceTree = "<group>"; };
 		CD9A1C7B80B8C085916F238852330131 /* WoodPeckeriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WoodPeckeriOS.framework; sourceTree = "<group>"; };
 		CE4F028157EA30FCCD0A3F7FC3F8357E /* Pods-XHWriterDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XHWriterDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		EB08BA157FC0503B70DFB59CEA4C1A69 /* Pods_XHWriterDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XHWriterDemoTests.framework; path = "Pods-XHWriterDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB08BA157FC0503B70DFB59CEA4C1A69 /* Pods_XHWriterDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XHWriterDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED553995E0920FC93B99163D865BC5D3 /* Pods-XHWriterDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHWriterDemo-Info.plist"; sourceTree = "<group>"; };
 		EF21F16B52ADF224A8EE3FBFD61CD0F9 /* WoodPeckeriOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WoodPeckeriOS.xcconfig; sourceTree = "<group>"; };
 		FAE8094B6A6CB0914728D6012A7B1484 /* Pods-XHWriterDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XHWriterDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -130,7 +131,6 @@
 				4F51BF64A0B70EA74E9F648DA367677D /* Frameworks */,
 				4F7AE733F5C837036865B66494B10022 /* Support Files */,
 			);
-			name = WoodPeckeriOS;
 			path = WoodPeckeriOS;
 			sourceTree = "<group>";
 		};
@@ -278,6 +278,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 7B7BE4731DCFCC0AEDDB8129DD2B3756 /* Products */;

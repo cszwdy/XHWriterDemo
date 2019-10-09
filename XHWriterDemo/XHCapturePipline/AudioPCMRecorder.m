@@ -69,7 +69,7 @@
     if (_isWav) {
         NSFileHandle * handle = [NSFileHandle fileHandleForWritingAtPath:_savedPath];
         [handle seekToFileOffset:0];
-        NSData *header = aWriteWavFileHeader(_dataCount, _dataCount+36, 16000, 1, 32000);
+        NSData *header = aWriteWavFileHeader(_dataCount, _dataCount+36, 44100, 1, 32000);
         [handle writeData:header];
     }
     
